@@ -12,7 +12,7 @@ In order to maintain consistency in a fundamentally unordered list of tasks, as 
 * Open the script with Chrome
 * Approve the installation
 
-Whenever you hit a URL matching *.apollohq.com, the script will watch for task lists and add a `Sort A-Z` button to its row of buttons.
+Whenever you hit a URL matching `*.apollohq.com`, the script will watch for task lists and add a `Sort A-Z` button to its row of buttons.
 
 ## Troubleshooting
 
@@ -26,7 +26,7 @@ To start automatically compiling the JS whenever changes are detected, run `guar
 
 To start Chrome and have it load the user script for manual testing:
 
-* run `rake`
-* click the script when Chrome "downloads" it
-* approve the installation
-* refresh the task list
+* Run `rake`
+* Click the script when Chrome "downloads" it
+* Approve the installation
+* Refresh the task list
