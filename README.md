@@ -20,6 +20,8 @@ Whenever you hit a URL matching *.apollohq.com, the script will watch for task l
 
 ## Development
 
+First of all, put your API key in a file named my_api_key. This will be used when compiling the script.
+
 To start automatically compiling the JS whenever changes are detected, run `guard`.
 
 To start Chrome and have it load the user script for manual testing:
