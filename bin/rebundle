@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+if ! which bundle > /dev/null 2>&1; then
+  gem install bundler -v 1.1.3
+fi
+
+if [[ ! -d vendor/bundle ]] || [[ Gemfile -nt vendor/bundle ]]; then # first-time setup
+  bundle install --binstubs=vendor/bin --path vendor/bundle
+fi

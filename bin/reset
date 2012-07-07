@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+rm -rf vendor/bundle
+rm Gemfile.lock

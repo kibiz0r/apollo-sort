@@ -1,0 +1,10 @@
+.bundle
+vendor/bin
+vendor/bundle
+my_api_key
+js/*-dev.user.js
+
+*.swp
+*.swo
+.DS_Store
+tags
