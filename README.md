@@ -8,7 +8,7 @@ In order to maintain consistency in a fundamentally unordered list of tasks, as 
 
 * Download [js/apollo-sort.user.js](https://github.com/kibiz0r/apollo-sort/raw/master/js/apollo-sort.user.js)
 * Open the script with a text editor
-* Replace `<YOUR API KEY GOES HERE>` with your API key
+* Replace `<YOUR API KEY GOES HERE>` with your API key (e.g. `api_key = 'ABCDEFG1234...';`)
 * Open the script with Chrome
 * Approve the installation
 
